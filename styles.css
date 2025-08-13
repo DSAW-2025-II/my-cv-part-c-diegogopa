@@ -1,0 +1,126 @@
+/* VARIABLES DE COLOR */
+:root {
+    --bg: #f4f4f4;
+    --left: #102131;
+    --accent: #23384B;
+    --text: #111;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: system-ui, Arial, sans-serif;
+    background: var(--bg);
+}
+
+/* CONTENEDOR PRINCIPAL */
+.cv {
+    display: flex;
+    width: min(100%, 1000px);
+    margin: 20px auto;
+    background: #fff;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 6px 24px rgba(0,0,0,0.08);
+}
+
+/* COLUMNA IZQUIERDA */
+.Izquierda {
+    flex: 0 0 35%;
+    background: var(--left);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.Izquierda img {
+    width: clamp(96px, 18vw, 140px);
+    height: clamp(96px, 18vw, 140px);
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid rgba(255,255,255,0.2);
+}
+
+.Izquierda h1 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.Izquierda h2 {
+    font-size: 0.9rem;
+    opacity: 0.9;
+    margin-bottom: 15px;
+}
+
+.Seccion {
+    text-align: left;
+    margin-top: 15px;
+}
+
+.Seccion h3 {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    padding-bottom: 4px;
+}
+
+.Seccion p, .Seccion li {
+    font-size: 0.85rem;
+    line-height: 1.4;
+}
+
+/* COLUMNA DERECHA */
+.Derecha {
+    flex: 1;
+    padding: 20px;
+    color: var(--text);
+}
+
+.Derecha h3 {
+    color: var(--accent);
+    margin-bottom: 5px;
+}
+
+.Derecha img {
+    width: 90px;
+    height: auto;
+    margin: 5px 0;
+}
+
+.Derecha h4 {
+    margin-top: 15px;
+}
+
+/* RESPONSIVE PARA TABLET */
+@media (max-width: 768px) {
+    .cv {
+        flex-direction: column;
+        border-radius: 12px;
+    }
+    .Izquierda, .Derecha {
+        width: 100%;
+        padding: 15px;
+    }
+    .Derecha img {
+        width: 80px;
+    }
+}
+
+/* RESPONSIVE PARA MÓVIL */
+@media (max-width: 480px) {
+    body {
+        background: white;
+    }
+    .cv {
+        margin: 0;
+        border-radius: 0;
+        box-shadow: none;
+    }
+    .Izquierda img {
+        margin-inline: auto;
+    }
+}
