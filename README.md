@@ -1,4 +1,10 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/FoyjQ7s2)
+
+## Marcado
+Nombre: Diego Alejandro Gómez Papagayo
+ID-Universitario: 0000336260
+Correo: diegogopa@unisabana.edu.co
+
 # Bienvenidos a la Tarea de HTML y CSS
 
 ¡Hola a todos!
@@ -85,3 +91,13 @@ section {
 - Experimenta con combinaciones de colores que sean agradables a la vista.
 
 ¡Buena suerte y diviértanse creando su CV!
+
+## Actividad Pantallazos
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/c0ef5da6-c0dc-4391-8508-2ccd66b84291" />
+<img width="1919" height="1078" alt="image" src="https://github.com/user-attachments/assets/a93fadc5-ba1b-4a9e-9273-9a793da54846" />
+
+
+## Archivo Desplegado
+https://dsaw-2025-ii.github.io/my-cv-part-c-diegogopa/
+
+
